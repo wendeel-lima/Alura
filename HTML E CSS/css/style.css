@@ -13,17 +13,52 @@ header {
 .titulo-principal{
     padding-left: 20px;
   }
+.titulocenter{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 
 p {
     text-align: center;
+    padding: 15px;
+}
+
+#missao{
+    font-size:20px;
+}
+
+.itens{
+    display: inline-block;
+    font-style: italic;
+    width: 940px;
+}
+
+em strong {
+    color: #FF0000;
   }
-  
+
+.beneficios{
+    background: #FFFFFF;
+    padding:20px;
+  } 
+
+.principal-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+  }
+.imagembeneficios {
+  width: 50%;
+} 
 
 .titulocenter {
     text-align: center;
   }
   
-  .caixa{
+.caixa{
     position: relative;
     width: 940px;
     margin: 0 auto;    
@@ -95,7 +130,7 @@ nav a:active{
     margin-top: 10px;
 }
 
-footer {
+.rodapéfooter {
     background: url("file:///C:/GitHub/Alura/Alura/HTML E CSS/img/bg.jpg");
     text-align: center;
     padding: 40px 0;
