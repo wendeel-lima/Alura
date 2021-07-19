@@ -12,7 +12,7 @@
     <header>
         <div class="caixa">
             <h1>
-                <img src="C:\GitHub\Alura\Alura\HTML E CSS\img/logo.png">
+                <img src="C:\GitHub\Alura\Alura\HTML E CSS\img/logo.png" alt="Logo barbearia Alura">
             </h1>
             <nav>
                 <ul>
@@ -26,16 +26,29 @@
     <main>        
         <form >
             <label for="nomesobrenome" >Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="input-padrao"required placeholder="seuameil@dominio.com">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="tel" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
 
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+            
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone"> Telefone</label>
+                
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email"> Email</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp"> WhatsApp</label>
+                
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" name="newlatter" id="conteudoemail">Gostaria de receber nossas novidades por email?</label>
             <input type="submit" value="Enviar Formulario">
-
         </form>
     </main>
     <footer class="rodapéfooter">
